@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<proxpn>
+  <location-version>1</location-version>
+  <versions>
+    <linux id="1.1.0">http://www.proxpn.com/updater/linux.iso</linux>
+    <mac-os id="2.7.0"></mac-os>
+    <windows id="2.7.0"></windows>
+  </versions>
+  <locations>
+    <location>
+      <name>Dallas, USA</name>
+      <type>free</type>
+      <openvpn key="openvpn-d" ip="173.0.14.249">
+	      <host>d1.proxpn.com</host>
+	      <host>d1.proxpn.org</host>
+	      <host>d1.proxpn.biz</host>
+	      <host>d1.proxpn.me</host>
+	      <host>d1.secureconnect1.com</host>
+      </openvpn>
+      <openvpn-udp key="openvpn-d" ip="107.6.100.20">
+              <host>udp-d1.proxpn.com</host>
+      </openvpn-udp>
+      <pptp key="pptp-d" ip="107.6.100.5">
+	      <host>pptp-d1.proxpn.com</host>
+	      <host>pptp-d1.proxpn.org</host>
+	      <host>pptp-d1.proxpn.biz</host>
+	      <host>pptp-d1.proxpn.me</host>
+	      <host>pptp-d1.secureconnect1.com</host>
+      </pptp>
+      <failover></failover>
+    </location>
+    <location>
+      <name>Dallas 2, USA</name>
+      <openvpn key="openvpn-bd" ip="64.31.57.196">
+              <host>bd.proxpn.com</host>
+              <host>bd.proxpn.org</host>
+              <host>bd.proxpn.biz</host>
+              <host>bd.proxpn.me</host>
+              <host>bd.secureconnect1.com</host>
+      </openvpn>
+      <pptp key="pptp-bd" ip="64.31.57.195">
+              <host>pptp-bd.proxpn.com</host>
+              <host>pptp-bd.proxpn.org</host>
+              <host>pptp-bd.proxpn.biz</host>
+              <host>pptp-bd.proxpn.me</host>
+              <host>pptp-bd.secureconnect1.com</host>
+      </pptp>
+      <failover></failover>
+    </location>
+    <location>
+      <name>New York, USA</name>
+      <openvpn key="openvpn-ny" ip="173.231.141.114">
+              <host>ny1.proxpn.com</host>
+              <host>ny1a.proxpn.org</host>
+              <host>ny1a.proxpn.biz</host>
+              <host>ny1a.proxpn.me</host>
+              <host>ny1a.secureconnect1.com</host>
+      </openvpn>
+      <openvpn-udp key="openvpn-ny" ip="173.231.141.124">
+              <host>udp-ny1.proxpn.com</host>
+      </openvpn-udp>
+      <pptp key="pptp-ny" ip="173.231.141.116">
+              <host>pptp-ny1.proxpn.com</host>
+              <host>pptp-ny1a.proxpn.org</host>
+              <host>pptp-ny1a.proxpn.biz</host>
+              <host>pptp-ny1a.proxpn.me</host>
+              <host>pptp-ny1a.secureconnect1.com</host>
+      </pptp>
+      <failover>New York 2, USA</failover>
+    </location>
+    <location>
+      <name>New York 2, USA</name>
+      <openvpn key="openvpn-bny" ip="50.7.71.86">
+	      <host>bny1.proxpn.com</host>
+	      <host>bny1.proxpn.org</host>
+	      <host>bny1.proxpn.biz</host>
+	      <host>bny1.proxpn.me</host>
+	      <host>bny1.secureconnect1.com</host>
+      </openvpn>
+      <openvpn-udp key="openvpn-bny" ip="173.0.15.233">
+              <host>udp-bny1.proxpn.com</host>
+      </openvpn-udp>
+      <pptp key="pptp-bny" ip="50.7.71.84">
+	      <host>pptp-bny1.proxpn.com</host>
+	      <host>pptp-bny1.proxpn.org</host>
+	      <host>pptp-bny1.proxpn.biz</host>
+	      <host>pptp-bny1.proxpn.me</host>
+	      <host>pptp-bny1.secureconnect1.com</host>
+      </pptp>
+      <failover>New York, USA</failover>
+    </location>
+    <location>
+      <name>Miami, USA</name>
+      <openvpn key="openvpn-mfl" ip="192.240.98.3">
+	      <host>mfl1.proxpn.com</host>
+	      <host>mfl1.proxpn.org</host>
+	      <host>mfl1.proxpn.biz</host>
+	      <host>mfl1.proxpn.me</host>
+	      <host>mfl1.secureconnect1.com</host>
+      </openvpn>
+      <pptp key="pptp-mfl" ip="50.7.67.42">
+	      <host>pptp-mfl.proxpn.com</host>
+	      <host>pptp-mfl.proxpn.org</host>
+	      <host>pptp-mfl.proxpn.biz</host>
+	      <host>pptp-mfl.proxpn.me</host>
+	      <host>pptp-mfl.secureconnect1.com</host>
+      </pptp>
+      <failover></failover>
+    </location>
+    <location>
+      <name>Seattle, USA</name>
+      <openvpn key="openvpn-se" ip="216.18.231.179">
+	      <host>se1.proxpn.com</host>
+	      <host>se1.proxpn.org</host>
+	      <host>se1.proxpn.biz</host>
+	      <host>se1.proxpn.me</host>
+	      <host>se1.secureconnect1.com</host>
+      </openvpn>
+      <openvpn-udp key="openvpn-se" ip="216.18.231.185">
+              <host>udp-se1.proxpn.com</host>
+      </openvpn-udp>
+      <pptp key="pptp-se" ip="216.18.237.54">
+	      <host>pptp-se1.proxpn.com</host>
+	      <host>pptp-se1.proxpn.org</host>
+	      <host>pptp-se1.proxpn.biz</host>
+	      <host>pptp-se1.proxpn.me</host>
+	      <host>pptp-se1.secureconnect1.com</host>
+    </pptp>
+    <failover>Dallas, USA</failover>
+    </location>
+    <location>
+      <name>Los Angeles, USA</name>
+      <openvpn key="openvpn-la" ip="64.27.29.67">
+	      <host>la1.proxpn.com</host>
+	      <host>la1.proxpn.org</host>
+	      <host>la1.proxpn.biz</host>
+	      <host>la1.proxpn.me</host>
+	      <host>la1.secureconnect1.com</host>
+      </openvpn>
+      <openvpn-udp key="openvpn-la" ip="64.27.29.74">
+              <host>udp-la1.proxpn.com</host>
+      </openvpn-udp>
+      <pptp key="pptp-la" ip="64.27.29.68">
+	      <host>pptp-la1.proxpn.com</host>
+	      <host>pptp-la1.proxpn.org</host>
+	      <host>pptp-la1.proxpn.biz</host>
+	      <host>pptp-la1.proxpn.me</host>
+	      <host>pptp-la1.secureconnect1.com</host>
+      </pptp>
+      <failover>Dallas, USA</failover>
+    </location>
+    <location>
+      <name>Netherland, NL</name>
+      <openvpn key="openvpn-nl" ip="213.179.213.2">
+	      <host>nl1.proxpn.com</host>
+	      <host>nl1.proxpn.org</host>
+	      <host>nl1.proxpn.biz</host>
+	      <host>nl1.proxpn.me</host>
+	      <host>nl1.secureconnect1.com</host>
+      </openvpn>
+      <openvpn-udp key="openvpn-nl" ip="213.179.208.146">
+              <host>udp-nl1.proxpn.com</host>
+      </openvpn-udp>
+      <pptp key="pptp-nl" ip="213.179.213.7">
+	      <host>pptp-nl1.proxpn.com</host>
+	      <host>pptp-nl1.proxpn.org</host>
+	      <host>pptp-nl1.proxpn.biz</host>
+	      <host>pptp-nl1.proxpn.me</host>
+	      <host>pptp-nl1.secureconnect1.com</host>
+      </pptp>
+      <failover>Dallas, USA</failover>
+    </location>
+    <location>
+      <name>Singapore, SG</name>
+      <openvpn key="openvpn-sg" ip="223.27.170.51">
+	      <host>sg1.proxpn.com</host>
+	      <host>sg1.proxpn.org</host>
+	      <host>sg1.proxpn.biz</host>
+	      <host>sg1.proxpn.me</host>
+	      <host>sg1.secureconnect1.com</host>
+      </openvpn>
+      <pptp key="pptp-sg" ip="223.27.170.53">
+	      <host>pptp-sg1.proxpn.com</host>
+	      <host>pptp-sg1.proxpn.org</host>
+	      <host>pptp-sg1.proxpn.biz</host>
+	      <host>pptp-sg1.proxpn.me</host>
+	      <host>pptp-sg1.secureconnect1.com</host>
+      </pptp>
+      <failover>Dallas, USA</failover>
+    </location>
+    <location>
+      <name>London, UK</name>
+      <openvpn key="openvpn-uk" ip="78.157.207.131">
+	      <host>uk1.proxpn.com</host>
+	      <host>uk1.proxpn.org</host>
+	      <host>uk1.proxpn.biz</host>
+	      <host>uk1.proxpn.me</host>
+	      <host>uk1.secureconnect1.com</host>
+      </openvpn>
+      <openvpn-udp key="openvpn-uk" ip="78.157.207.139">
+              <host>udp-uk1.proxpn.com</host>
+      </openvpn-udp>
+      <pptp key="pptp-uk" ip="78.157.207.134">
+	      <host>pptp-uk1.proxpn.com</host>
+	      <host>pptp-uk1.proxpn.org</host>
+	      <host>pptp-uk1.proxpn.biz</host>
+	      <host>pptp-uk1.proxpn.me</host>
+	      <host>pptp-uk1.secureconnect1.com</host>
+      </pptp>
+      <failover>Dallas, USA</failover>
+    </location>
+    <location>
+      <name>Prague, CZ</name>
+      <openvpn key="openvpn-cz" ip="50.7.207.235">
+        <host>cz1.proxpn.com</host>
+        <host>cz1.proxpn.org</host>
+        <host>cz1.proxpn.biz</host>
+        <host>cz1.proxpn.me</host>
+        <host>cz1.secureconnect1.com</host>
+      </openvpn>
+      <pptp key="pptp-cz" ip="50.7.207.238">
+        <host>pptp-cz1.proxpn.com</host>
+        <host>pptp-cz1.proxpn.org</host>
+        <host>pptp-cz1.proxpn.biz</host>
+        <host>pptp-cz1.proxpn.me</host>
+        <host>pptp-cz1.secureconnect1.com</host>
+      </pptp>
+      <failover>Dallas, USA</failover>
+    </location>
+    <location>
+      <name>Stockholm, SE</name>
+      <openvpn key="openvpn-swe" ip="94.185.84.34">
+        <host>swe1.proxpn.com</host>
+        <host>swe1.proxpn.org</host>
+        <host>swe1.proxpn.biz</host>
+        <host>swe1.proxpn.me</host>
+        <host>swe1.secureconnect1.com</host>
+      </openvpn>
+      <pptp key="pptp-swe" ip="94.185.84.37">
+        <host>pptp-swe.proxpn.com</host>
+        <host>pptp-swe.proxpn.org</host>
+        <host>pptp-swe.proxpn.biz</host>
+        <host>pptp-swe.proxpn.me</host>
+        <host>pptp-swe.secureconnect1.com</host>
+      </pptp>
+      <failover>Netherland, NL</failover>
+    </location>
+    <location>
+      <name>Tokyo, JP</name>
+      <openvpn key="openvpn-jp" ip="37.252.229.130">
+        <host>jp1.proxpn.com</host>
+      </openvpn>
+    </location>
+    <location>
+      <name>Trial</name>
+      <openvpn key="openvpn-trial" ip="192.240.98.3">
+        <host>i.proxpn.com</host>
+      </openvpn>
+      <pptp key="pptp-trial" ip="107.6.100.11">
+        <host>pptp-ios-d1.proxpn.com</host>
+      </pptp>
+    </location>
+  </locations>
+</proxpn>
